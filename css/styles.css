@@ -1,0 +1,48 @@
+.navbar {
+  background-color: black; /* Color de fondo del navbar */
+  justify-content: space-between;
+  
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0); /* Color del texto del enlace */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  
+}
+.nav-link{
+  padding-right: 50px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black; /* Color del texto al pasar el ratón por encima */
+}
+
+.carousel-item img{
+  width: 66%;
+  height: 30%;
+  justify-content: right; /* Centra horizontalmente */
+  padding-top: 20px;
+  padding-left: 34%;
+}
+.carousel-item{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: auto;
+}
+.carousel-text {
+  width: 50%; /* Ajusta el ancho del texto */
+  padding: 20px;
+  color: #fff;
+}
+.undertext{
+  padding-left: 10%;
+}
+
+
+/* HASTA AQUI CONFIGURACION DEL HEADER Y CAROUSEL*/ 
+
+

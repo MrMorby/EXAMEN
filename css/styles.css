@@ -1,3 +1,5 @@
+/*NAVBAR Y CAROUSEL*/
+
 .navbar {
   background-color: black; /* Color de fondo del navbar */
   justify-content: space-between;
@@ -47,3 +49,22 @@
 /* HASTA AQUI CONFIGURACION DEL HEADER Y CAROUSEL*/ 
 
 
+/* mapa api */
+
+#map{
+  border-radius: 5rem;
+  border-style: ridge;
+  border-width: 1rem;
+  border-color: bisque;
+  height: 40rem;
+  width: 100%; 
+}
+
+.texto-mapa{
+  color: beige;
+  font-size: 2rem;
+}
+
+.mapa{
+  background-color: rgb(32, 32, 32);
+}

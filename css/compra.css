@@ -1,3 +1,6 @@
+/*PARA PRODUCTOS*/
+
+
 *::after,
 *::before,
 *{
@@ -11,6 +14,7 @@
 .icon-cart{
     width: 40px;
     height: 40px;
+    stroke: black;
 }
 
 img{
@@ -40,4 +44,14 @@ img{
 .item img{
     width: 100%;
     height: 250px;
+}
+
+.info-producto button{
+    border:none;
+    background: none;
+    background-color: #242121;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+
 }

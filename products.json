@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Crispy Burger",
+        "price": 5000,
+        "image":"fotos/burger1"
+    },
+    {
+        "id":2,
+        "name":"Doble Queso Picante",
+        "price": 5000,
+        "image":"fotos/burger2"
+    },
+    {
+        "id":3,
+        "name":"Clasic Burger",
+        "price": 5000,
+        "image":"fotos/burger3"
+    },
+    {
+        "id":4,
+        "name":"Veggie Burger",
+        "price": 5000,
+        "image":"fotos/burger4"
+    }
+]

@@ -37,14 +37,11 @@
   height: auto;
 }
 .carousel-text {
-  width: 50%; /* Ajusta el ancho del texto */
-  padding: 20px;
+  width: 100%; /* Ajusta el ancho del texto */
   color: #fff;
+  text-align: center;
+  padding-bottom: 2%;
 }
-.undertext{
-  padding-left: 10%;
-}
-
 
 /* HASTA AQUI CONFIGURACION DEL HEADER Y CAROUSEL*/ 
 
@@ -78,7 +75,7 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #a85129;
+  background-color: #e66123;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -108,7 +105,7 @@
 .registro-form button {
 
   padding: 10px;
-  background-color: #1c0707;
+  background-color: #83370b;
   border: none;
   color: #fff;
   border-radius: 3px;

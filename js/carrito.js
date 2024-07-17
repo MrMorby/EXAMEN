@@ -30,3 +30,39 @@ function clearCart() {
     localStorage.removeItem('cart');
     updateCart();
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const modal = document.getElementById("confirmModal");
+    const btn = document.getElementById("clear-cart-btn");
+    const span = document.getElementsByClassName("close")[0];
+    const confirmBtn = document.getElementById("confirm-clear");
+    const cancelBtn = document.getElementById("cancel-clear");
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    cancelBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    confirmBtn.onclick = function() {
+        clearCart();
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});
+
+function clearCart() {
+    localStorage.removeItem('cart');
+    updateCart();
+}

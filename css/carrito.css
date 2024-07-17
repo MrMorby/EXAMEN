@@ -7,10 +7,7 @@
     border-color: orange;
     font-size: 20px;
 }
-.clear-cart{
-    background-color: rgb(230, 127, 10);
-    color: #fff;
-}
+
 
 .title{
     text-align: center;
@@ -28,11 +25,9 @@
 .botones-inferiores{
     border:none;
     background: none;
-    background-color: #b95115;
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
-    text-align: center;
 }
 .botones-inferiores a {
     color: inherit; 
@@ -43,5 +38,4 @@
     text-align: center;
     text-align: center;
     padding: 15px 10px;
-
 }

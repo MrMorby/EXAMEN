@@ -1,16 +1,47 @@
 .cart{
     margin: 100px;
     padding: 30px;
-    background-color: #333;
     color: #fff;
-    cursor: pointer;
     border-radius: 15px;
     border-style: groove;
     border-color: orange;
     font-size: 20px;
 }
 .clear-cart{
-    background-color: red;
+    background-color: rgb(230, 127, 10);
     color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding-top: 6%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botones-inferiores{
+    display: block;
+    text-align: center;
+}
+
+
+.botones-inferiores{
+    border:none;
+    background: none;
+    background-color: #b95115;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.botones-inferiores a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.botonpagar{
+    text-align: center;
+    text-align: center;
+    padding: 15px 10px;
+
 }

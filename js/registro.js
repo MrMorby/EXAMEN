@@ -81,7 +81,7 @@ function validarReg(){
     //
     if (varNombre && varCorreo && varContraseña && varVContraseña && varTelefono) { 
         // Redirigir a la pagina de login 
-        window.location.href = "postLogin.html";
+        window.location.href = "presentacion.html";
     }
 }
 
@@ -123,7 +123,7 @@ function validarIngreso(){
      //Redirije a la pagina principal 
      if (varCorreo===true && varContraseña===true)
         { 
-        window.location.href="index.html";
+        window.location.href="presentacion.html";
     }
 
 }

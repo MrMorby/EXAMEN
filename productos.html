@@ -14,14 +14,14 @@
       <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="fotos/logo.png" alt=""></a>
+            <a class="navbar-brand" href="presentacion.html"><img src="fotos/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="presentacion.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="productos.html">Productos</a>
@@ -32,8 +32,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="trabaja.html">Trabaja con Nosotros</a>
                 </li>
-                <li class="nav-item cart-icon">
-                  <a class="nav-link" href=""><img src="fotos/shopicon.png" alt=""></a>
+                <li class="nav-item cart-icon carrito-icon">
+                  <a class="nav-link" href="carrito.html"><img src="fotos/shopicon.png" alt=""></a>
                 </li>
               </ul>
           </div>
@@ -83,56 +83,81 @@
       </div>
       <!--CAROUSEL FIN-->
     <!--COMPRA INICIO-->
-      <section class="container-items product-container">
-        <div class="product info-producto" data-id="1" data-name="burger1" data-price="5000">
-            <img src="fotos/2.png" alt="producto 1">
-          <div class="info-producto">
+      <section class="container-items products">
+        <div class="product info-producto" >
+            <img src="fotos/2.png" alt="Producto 1">
+          <div >
             <h2>Doble Queso Picante</h2>
-            <p class="price">$5000</p>
-            <button class="add-to-cart">Añadir al carrito</button>
-
+            <p>Precio: $5000</p>
+            <button onclick="addToCart('Doble Queso Picante',5000)">Añadir al carrito</button>
           </div>
         </div>
-        <div class="product info-producto" data-id="2" data-name="burger2" data-price="5000">
-            <img src="fotos/1.png" alt="producto 2">
-          <div class="info-producto">
+        <div class="product info-producto"  >
+            <img src="fotos/1.png" alt="Producto 2">
+          <div>
             <h2>Crispy Burger</h2>
-            <p class="precio">$5000</p>
-            <button class="add-to-cart">Añadir al carrito</button>
-
+            <p>Precio: $5000</p>
+            <button onclick="addToCart('Crispy Burger',5000)">Añadir al carrito</button>
           </div>
         </div>
-        <div class="product info-producto" data-id="3" data-name="burger3" data-price="5000">
-            <img src="fotos/3.png" alt="producto 3">
-          <div class="info-producto">
+        <div class="product info-producto" >
+            <img src="fotos/3.png" alt="Producto 3">
+          <div>
             <h2>Clásica</h2>
-            <p class="precio">$5000</p>
-            <button class="add-to-cart">Añadir al carrito</button>
-
+            <p>Precio: $5000</p>
+            <button onclick="addToCart('Clásica',5000)">Añadir al carrito</button>
           </div>
         </div>
-        <div class="product info-producto" data-id="4" data-name="burger4" data-price="7000">
-            <img src="fotos/4.png" alt="producto 4">
-          <div class="info-producto">
-            <h2>Veggie</h2>
-            <p class="precio">$7000</p>
-            <button class="add-to-cart">Añadir al carrito</button>
-            
-            
+        <div class="product info-producto"  >
+            <img src="fotos/4.png" alt="Producto 4">
+          <div>
+            <h2>Vegetariana</h2>
+            <p>Precio: $7000</p>
+            <button onclick="addToCart('Vegetariana',7000)">Añadir al carrito</button>
           </div>
         </div>
-      </section>
+        <div class="product info-producto"  >
+            <img src="fotos/5.png" alt="Producto 4">
+          <div>
+            <h2>Cheese Burger</h2>
+            <p>Precio: $3500</p>
+            <button onclick="addToCart('Cheese Burger',3500)">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="product info-producto" >
+            <img src="fotos/6.png" alt="Producto 5">
+          <div>
+            <h2>AI Burger</h2>
+            <p>Precio: $4600</p>
+            <button onclick="addToCart('AI Burger',4600)">Añadir al carrito</button>
+          </div>
+       </div>
+       <div class="product info-producto"  >
+          <img src="fotos/7.png" alt="Producto 6">
+          <div>
+            <h2>Unreal Burger</h2>
+            <p>Precio: $99999</p>
+            <button onclick="addToCart('Unreal Burger',99999)">Añadir al carrito</button>
+          </div>
+        </div>
+        <div class="product info-producto" >
+          <img src="fotos/8.jpg" alt="Producto 4">
+        <div>
+          <h2>Vegana</h2>
+          <p>Precio: $1</p>
+          <button onclick="addToCart('Vegana',1)">Añadir al carrito</button>
+        </div>
+      </div>
 
-      <section class="cart">
-        <h2>Carrito de Compras</h2>
-        <ul class="cart-list"></ul>
-        <p class="total">Total de la Compra: $<span>0</span></p>
-        <button class="clear-cart">Limpiar Carrito</button>
+        
+        <div class="ir-carrito" style="margin-left: 30px;">
+        <a href="carrito.html">Ir al Carrito</a>
+        </div>
+        
       </section>
-  
     <!--COMPRA FIN-->
-
-    <script src="js/cartservice.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/productos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
         

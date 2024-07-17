@@ -75,7 +75,7 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #e66123;
+  background-color: #ff8b2c;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -105,7 +105,7 @@
 .registro-form button {
 
   padding: 10px;
-  background-color: #83370b;
+  background-color: #ca5613;
   border: none;
   color: #fff;
   border-radius: 3px;
@@ -138,5 +138,3 @@
   text-align: center;
   color: #680909;
 }
-
-

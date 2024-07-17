@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/compra.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <title>Burger King</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--NAVBAR INICIO-->
+      <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="presentacion.html"><img src="fotos/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="presentacion.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carrito.html">Carrito</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trabaja.html">Trabaja con Nosotros</a>
+                </li>
+                <li class="nav-item cart-icon">
+                  <a class="nav-link" href=""><img src="fotos/shopicon.png" alt=""></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> 
+      <!--NAVBAR FIN-->
+</head>
+  <body style="background-color: #110606;">
+    <!--CAROUSEL INICIO-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active fixfoto">
+          <img src="fotos/1.png" class="d-block " alt="">
+          <div class="carousel-text undertext">
+              <h3>Crispy</h3>
+              <p>Lechuga, tomate, cheddar, tocino crispy, carne.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="fotos/2.png" class="d-block " alt="...">
+          <div class="carousel-text undertext">
+              <h3>Doblequeso picante</h3>
+              <p>Lechuga, tomate, doble cheddar, tocino crispy, carne, ají.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="fotos/3.png" class="d-block " alt="...">
+          <div class="carousel-text undertext">
+              <h3>Clásica</h3>
+              <p>Lechuga, tomate, cheddar, pepinillo, carne.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--FIN CAROUSEL-->
+    <!--CONTENIDO-->
+    <div class="welcome"><h1>Bienvenido a Burger King</h1></div>
+
+
+    <!--FIN CONTENIDO-->
+    <!--API-->
+    <div class="container-fluid mapa" style="padding-left: 10%; padding-right: 10%; padding-bottom: 100px;">
+      <p class="texto-mapa">Ubicados en Av. Libertad 988, Viña del Mar, Valparaíso.</p>
+        <!--Api Google MAP-->
+      <div id="map"></div>   
+      <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||
+      (b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||
+      (h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||
+      "";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyA7yz71SkuXYaxJOfPYySUADk8ILh8IpXw", v: "weekly"});</script> 
+    </div>
+    <!--FIN API-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+  </body>
+  <footer>
+      <div class="card-body" style="background-color: #dd5303;">
+        <h5 class="card-title">SUPER FOOTER</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </footer>
+</html>

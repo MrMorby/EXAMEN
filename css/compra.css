@@ -54,3 +54,23 @@ img{
     height: 40px;
     stroke: black;
 }
+
+.ir-carrito{
+    border:none;
+    background: none;
+    background-color: #242121;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.ir-carrito a {
+    color: inherit; 
+    text-decoration: none;
+}
+.ir-carrito-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}

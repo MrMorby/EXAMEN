@@ -1,0 +1,18 @@
+/* Estilos para el footer */
+footer {
+    background-color: #EC6E20; /* Color dorado anaranjado de Burger King */
+    color: #FFFFFF; /* Texto en blanco */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  /* Estilo para los enlaces */
+  footer a {
+    color: #FFFFFF; /* Texto en blanco */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  

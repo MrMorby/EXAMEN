@@ -69,3 +69,77 @@
 .mapa{
   background-color: rgb(32, 32, 32);
 }
+
+/*AQUI COMIENZA DEL REGISTRO */
+
+.registro-container {
+
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #a85129;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+}
+
+.registro-form {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-form h3 {
+
+  margin-bottom: 20px;
+  color: #1c0707;
+}
+
+.registro-form input {
+
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #680909;
+  border-radius: 3px;
+}
+
+.registro-form button {
+
+  padding: 10px;
+  background-color: #1c0707;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registro-form button:hover {
+
+  background-color: #0056b3;
+}
+
+.span_registro{
+  color: #cc3d3d; /* Hacemos el texto transparente para que el fondo sea visible */
+  background: white; /* Color de fondo completo */
+  border-radius: 4px;
+}
+
+
+/*AQUI POST LOG-IN*/
+
+
+.post-log{
+  text-align: center;
+  padding-top: 50px;
+  color: #9c1212;
+}
+
+.under-post-log{
+  text-align: center;
+  color: #680909;
+}
+
+
